@@ -1,0 +1,273 @@
+
+
+.otherColumn .top-bg,.otherColumn .bottom-bg{width: 100%;position: absolute;left: 0;background-size: contain!important;z-index: 1;}
+.otherColumn .top-bg{top: 0;border-style: solid;border-color: #00f6ff;border-width: 2px 2px 0 2px;}
+.otherColumn .bottom-bg{bottom: 0;border-style: solid;border-color: #00f6ff;border-width: 0 2px 2px 2px}
+.otherColumn .chart-bg-box{position:relative;height: 100%;width: 100%;}
+.otherColumn .chart-bg-box:before,.otherColumn .chart-bg-box:after{position: absolute;content: '';width: 6px;height: 20px;background: #00f6ff;}
+.otherColumn .top-bg .chart-bg-box:before{left: -4px;bottom: 0;}
+.otherColumn .top-bg .chart-bg-box:after{right: -4px;bottom: 0;}
+.otherColumn .bottom-bg .chart-bg-box:before{left: -4px;top: 0;}
+.otherColumn .bottom-bg .chart-bg-box:after{right: -4px;top: 0;}
+.otherColumn .top-bg .ring{position: absolute;left: -9px;  top:-9px;width: 17px;height:17px;background: url("../images/bg/ring.png")no-repeat center;background-size: contain}
+.otherColumn .triangle{position: absolute;width: 12px;height:52px;background: url("../images/bg/triangle.png") no-repeat center;background-size: contain}
+.otherColumn .top-bg .triangle{left: -6px;  bottom:-55px;}
+.otherColumn .bottom-bg .triangle{right: -7px;  top:-55px;}
+.big-bg,.mid-bg,.min-bg{position: relative}
+.big-bg .top-bg{height:150px;}
+.big-bg .bottom-bg{height:150px;}
+
+.mid-bg .top-bg{height:110px;}
+.mid-bg .bottom-bg{height:110px;}
+
+.min-bg .top-bg{height:80px;}
+.min-bg .bottom-bg{height:80px;}
+
+.left-chart,.center-chart,.right-chart,.prj-area,.top-chart,.bottom-chart,.bg-pos{position: relative;height: 100%}
+.land-one-row{height: 420px;}
+.land-one-row .left-chart{width: 68%;float: left;height: 100%;}
+.land-one-row .right-chart{width: 30%;float: right;height:100%;}
+.land-two-row{height: 330px;margin-top: 20px}
+.land-two-row .left-chart{width: 25%;float: left;height: 100%;}
+.land-two-row .center-chart{width: 41%;float: left;height:100%;margin: 0 2%}
+.land-two-row .right-chart{width: 30%;float: right;height:100%;}
+
+.prjBuild{position: relative;padding-left: 70px}
+.leftnav{position: fixed;left: 0;top:90px;z-index: 88888}
+.prj-one-row{height: 500px;}
+.prj-one-row .left-chart{width: 68%;float: left;height: 100%;}
+.prj-one-row .left-chart .prj-num{width: 100%;height: 130px;}
+.show-num {padding: 10px;}
+.show-num li{float: left;width: 31%;margin: 0 1%;border:1px dotted #badefd;border-radius: 3px;padding: 10px;height: 108px;color: #fff}
+.show-num li h4 span{font-size: 12px;}
+.show-num li p{width: 100%;height: 50px;line-height: 50px;text-align: right;font-size:32px;font-weight: 700;color: #07d3c1;border: 1px solid #54719b;border-radius: 3px;background: rgba(0,30,66,.6);margin-top: 15px;padding: 0 10px}
+.real-estate{padding: 10px;height: 100%}
+.real-estate-info{width: 49%;float: left;height: 100%;}
+.real-estate-way{width: 49%;float: right;height: 100%}
+
+.prj-one-row .left-chart .prj-info{width: 100%;height: 350px;margin-top: 20px}
+.prj-one-row .right-chart{width: 30%;float: right;height: 100%;}
+
+.prj-two-row{height: 700px;margin-top: 20px}
+.prj-two-row .left-chart{width: 68%;float: left;height: 100%;}
+.prj-two-row .left-chart .prj-month{width: 100%;height: 130px;}
+.prj-two-row .left-chart .prj-area{width: 100%;height: 550px;margin-top: 20px}
+.prj-two-row .right-chart{width: 30%;float: right;height: 100%;}
+.presale{width: 100%;height: 100%;}
+.presale td{width: 50%;padding:5px}
+#prj-info{color: #fff;padding: 0 15px}
+#prj-info h3{font-size: 16px;line-height: 60px}
+#prj-info table{width: 100%;}
+#prj-info table th{background: rgba(33,100,143,.6)}
+#prj-info table td,#prj-info table th{height: 40px;line-height: 40px;text-align: center;border-right: 3px solid #00051b;width: 33.33%}
+#prj-info table tr td:last-child{border: 0}
+#prj-info table tr:nth-child(2n+1) td{background: rgba(18,52,87,.6)}
+.frame{padding: 10px}
+.frame-content{padding: 10px}
+
+.top-nav{width: 100%;height: 47px;margin: 10px 0;border-bottom: 2px solid #4e94da;padding: 0 20px;}
+.top-nav li{float: left;width: 100px;text-align: center;line-height: 45px;border-radius: 3px 3px 0 0;background: #516f95;color: #fff;margin-left: 10px;}
+.top-nav li.on{background: #4e94da}
+.top-nav li a{display: block}
+
+
+
+.house-one-row,.house-two-row{height: 450px;width: 100%;margin-bottom:20px}
+.house-one-row .left-chart,.house-two-row .left-chart{  width: 36%;float: left;  }
+.house-one-row .center-chart,.house-one-row .right-chart,
+.house-two-row .center-chart,.house-two-row .right-chart{width: 30%;float: left;height: 100%}
+.house-one-row .center-chart,.house-two-row .center-chart{margin: 0 2%;}
+#house-info,#plan-info{padding: 0 10px;color: #fff;margin-bottom: 10px}
+.comment-show h3{font-size: 16px;line-height: 40px;}
+.comment-show li{width: 48%;margin: 1%;float: left;border:1px solid #badefd;background: rgba(2,29,76,.1) ;border-radius: 5px;margin-bottom: 10px;padding: 0 5px}
+.comment-show li h4{font-size: 16px;line-height:30px;}
+.comment-show li h4 span{font-size: 14px}
+.comment-show li p{text-align: right;font-size: 30px;color:#07d3c1 }
+.plan-show{margin: 15px 0;}
+.plan-show h3{font-size: 18px;}
+.plan-show li p{line-height: 60px;font-size: 34px}
+
+.house-four-row,.house-three-row{height: 380px;width: 100%;margin-bottom:20px}
+.house-three-row .left-chart,.house-three-row .right-chart{width: 49%;float: left;height: 100%}
+.house-three-row .right-chart{float: right;}
+
+.house-four-row .left-chart,.house-four-row .right-chart{width: 33%;height: 100%;float: left}
+.house-four-row .center-chart{width: 30%;height: 100%;float: left;margin: 0 2%}
+
+
+.plan-one-row{height: 420px;margin-bottom: 20px}
+.plan-two-row{height: 360px;margin-bottom: 20px}
+.plan-one-row .left-chart,.plan-one-row .center-chart,.plan-one-row .right-chart,
+.plan-two-row .left-chart,.plan-two-row .center-chart,.plan-two-row .right-chart{width: 32%;float: left;height: 100%}
+.plan-one-row .center-chart,.plan-two-row .center-chart{margin: 0 2%;}
+
+.project-build .left-filter,
+.special-topic .left-filter{float: left;position: relative;width: 200px;padding: 15px;color: #fff}
+.project-build .left-filter h3,
+.special-topic .left-filter h3{font-size: 16px;line-height: 40px}
+.project-build .left-filter .year-month select,
+.special-topic .left-filter .year-month select{background: transparent;border: 0;border-bottom: 1px solid #fff}
+.project-build .left-filter .radio,
+.special-topic .left-filter .radio{width:80px;margin: 15px auto!important;}
+
+.project-build .right-data,
+.special-topic .right-data{width: 100%;padding-left: 220px}
+.build-one-row{padding: 10px;margin-bottom: 20px;height: 126px}
+.build-one-row li{width: 31.3%;float: left;text-align: center;border:1px solid #badefd;border-radius: 5px;margin: 0 1%;background: rgba(2,29,76,.1)}
+.build-one-row li h4{color:#fff;line-height: 40px}
+.build-one-row li p{color:#07d3c1;font-size: 28px;line-height: 60px}
+
+.build-two-row,.build-three-row,.build-four-row{height: 400px;margin-bottom: 20px}
+.build-two-row  .left-chart,.build-four-row .left-chart{width: 66%;float: left;height: 100%}
+.build-two-row  .right-chart,.build-four-row  .right-chart{width: 32%;float: right;height: 100%}
+.build-three-row  .left-chart,.build-three-row .center-chart,.build-three-row .right-chart{width: 32%;float: left;height: 100%}
+.build-three-row .center-chart{margin: 0 2%}
+
+
+.presale-one-row{height: 300px;margin-bottom: 20px}
+.presale-one-row .presale-info{height: 100%;padding: 10px;}
+.presale-one-row .presale-info .presale-chart{width: 33.33%;height: 100%;float: left;}
+.presale-two-row{height:680px;margin-bottom: 20px }
+.presale-two-row .left-chart-box{width: 53%;float: left;height: 100%;}
+.presale-two-row .left-chart-box .top-chart{height:340px;margin-bottom: 10px}
+.presale-two-row .left-chart-box .bottom-chart{height:330px}
+.presale-two-row .right-chart{width: 45%;float: right}
+.presale-two-row .presale-table{padding: 10px;color: #fff}
+.presale-two-row .presale-table h3{font-size: 16px;line-height: 50px;}
+.presale-two-row table{width: 100%;}
+.presale-two-row table th{background: rgba(33,100,143,.6)}
+.presale-two-row table td,.presale-two-row table th{height: 40px;text-align: center;border-right: 3px solid #00051b;vertical-align: middle}
+.presale-two-row table tr td:last-child{border: 0}
+.presale-two-row table tr:nth-child(2n+1) td{background: rgba(18,52,87,.6)}
+.presale-three-row{height: 380px;}
+.presale-three-row .left-chart{width: 53%;float: left;height: 100%;}
+.presale-three-row .right-chart{width: 45%;float: right;height: 100%;}
+
+
+.trans-one-row{height: 420px;margin-bottom: 20px;}
+.trans-one-row .left-chart-box{width: 66%;float: left;height: 100%;padding: 10px}
+.trans-one-row .left-chart-box .left-chart-one{width: 49.5%;float: left;height: 100%;}
+.trans-one-row .left-chart-box .left-chart-two{width: 49.5%;float: right;height: 100%;}
+.trans-one-row .right-chart{width: 32%;float: right;height: 100%;}
+.trans-one-row .right-chart .select{color: #fff;padding: 10px;position: relative;z-index: 99}
+.trans-one-row .right-chart .select select{background: transparent;border: 0;border-bottom: 1px solid #fff}
+.trans-two-row{height:650px;margin-bottom: 20px;}
+.trans-two-row .left-chart-box{width: 66%;float: left;height: 100%;}
+.trans-two-row .left-chart-box .top-chart{width: 100%;height: 320px;margin-bottom: 10px;}
+.trans-two-row .left-chart-box .bottom-chart{width: 100%;height: 320px;}
+.trans-two-row .right-chart{width:32%;float: right;height: 100%;}
+.trans-three-row{height: 420px;margin-bottom: 20px}
+.trans-three-row .left-chart,.trans-three-row .center-chart,.trans-three-row .right-chart{width: 32%;float: left;height: 100%}
+.trans-three-row .center-chart{margin: 0 2%;}
+.trans-four-row{height: 360px;margin-bottom: 20px}
+.trans-four-row .left-chart,.trans-four-row .center-chart,.trans-four-row .right-chart{width: 32%;float: left;height: 100%}
+.trans-four-row .center-chart{margin: 0 2%;}
+.trans-five-row{height: 400px;margin-bottom: 20px}
+.trans-five-row .left-chart{width: 32%;float: left;height: 100%;}
+.trans-five-row .right-chart-box{width: 66%;float: right;height: 100%;}
+.trans-five-row .right-chart-box .left-chart-one{width: 49.5%;float: left;height: 100%;}
+.trans-five-row .right-chart-box .left-chart-two{width: 49.5%;float: right;height: 100%;}
+.trans-six-row{height: 380px;}
+.trans-six-row .left-chart,.trans-six-row .center-chart,.trans-six-row .right-chart{width: 32%;float: left;height: 100%}
+.trans-six-row .center-chart{margin: 0 2%;}
+
+
+.loan-one-row{height: 420px;margin-bottom: 20px;}
+.loan-one-row .left-chart-box{width: 66%;float: left;height: 100%;padding: 10px}
+.loan-one-row .left-chart-box .left-chart-one{width: 49.5%;float: left;height: 100%;}
+.loan-one-row .left-chart-box .left-chart-two{width: 49.5%;float: right;height: 100%;}
+.loan-one-row .right-chart{width: 32%;float: right;height: 100%;}
+.loan-one-row .right-chart .select{color: #fff;padding: 10px;position: relative;z-index: 99}
+.loan-one-row .right-chart .select select{background: transparent;border: 0;border-bottom: 1px solid #fff}
+.loan-two-row{height: 700px;margin-bottom: 20px}
+.loan-two-row .left-chart-box{width: 66%;float: left;height: 100%;}
+.loan-two-row .left-chart-box .left-one-row{height: 345px;margin-bottom: 10px;}
+.loan-two-row .left-chart-box .left-left-chart{width: 49%;float: left;height: 100%}
+.loan-two-row .left-chart-box .left-right-chart{width: 49%;float: right;height: 100%}
+.loan-two-row .left-chart-box .left-two-row{height: 345px;}
+.loan-two-row .right-chart{width:32%;float: right;height: 100%;}
+.loan-two-row .right-chart .comment-show li{padding: 20px 5px}
+.loan-two-row .right-chart .house-show{margin-top: 20px}
+.loan-three-row{height: 380px;}
+.loan-three-row .left-chart{width: 66%;float: left;height: 100%;}
+.loan-three-row .right-chart{width:32%;float: right;height: 100%;}
+
+.store-one-row{height: 420px;margin-bottom: 20px;}
+.store-one-row .left-chart-box{width: 66%;float: left;height: 100%;padding: 10px}
+.store-one-row .left-chart-box .left-chart-one{width: 49.5%;float: left;height: 100%;}
+.store-one-row .left-chart-box .left-chart-two{width: 49.5%;float: right;height: 100%;}
+.store-one-row .right-chart{width: 32%;float: right;height: 100%;}
+.store-one-row .right-chart .select{color: #fff;padding: 10px;position: relative;z-index: 99}
+.store-one-row .right-chart .select select{background: transparent;border: 0;border-bottom: 1px solid #fff}
+.store-two-row{height:380px;margin-bottom: 20px;}
+.store-two-row .left-chart{width: 66%;float: left;height: 100%;}
+.store-two-row .right-chart{width:32%;float: right;height: 100%;}
+.store-two-row .comment-show li{padding:8px 5px}
+.store-three-row{height:380px;margin-bottom: 20px;}
+.store-three-row .left-chart{width: 66%;float: left;height: 100%;}
+.store-three-row .right-chart{width:32%;float: right;height: 100%;}
+.store-four-row{height: 420px;margin-bottom: 20px}
+.store-four-row .left-chart,.store-four-row .center-chart,.store-four-row .right-chart{width: 32%;float: left;height: 100%}
+.store-four-row .center-chart{margin: 0 2%;}
+.store-five-row{height: 360px;margin-bottom: 20px}
+.store-five-row .left-chart,.store-five-row .center-chart,.store-five-row .right-chart{width: 32%;float: left;height: 100%}
+.store-five-row .center-chart{margin: 0 2%;}
+.store-six-row{height: 400px;margin-bottom: 20px}
+.store-six-row .left-chart{width: 32%;float: left;height: 100%;}
+.store-six-row .right-chart-box{width: 66%;float: right;height: 100%;}
+.store-six-row .right-chart-box .left-chart-one{width: 49.5%;float: left;height: 100%;}
+.store-six-row .right-chart-box .left-chart-two{width: 49.5%;float: right;height: 100%;}
+
+
+.mortgage-one-row{height: 420px;margin-bottom: 20px;}
+.mortgage-one-row .left-chart-box{width: 66%;float: left;height: 100%;padding: 10px}
+.mortgage-one-row .left-chart-box .left-chart-one{width: 49.5%;float: left;height: 100%;}
+.mortgage-one-row .left-chart-box .left-chart-two{width: 49.5%;float: right;height: 100%;}
+.mortgage-one-row .right-chart{width: 32%;float: right;height: 100%;}
+.mortgage-one-row .right-chart .select{color: #fff;padding: 10px;position: relative;z-index: 99}
+.mortgage-one-row .right-chart .select select{background: transparent;border: 0;border-bottom: 1px solid #fff}
+.mortgage-two-row{height:350px;margin-bottom: 20px;}
+.mortgage-two-row .right-chart,.mortgage-two-row .center-chart,.mortgage-two-row .left-chart{width:32%;float: left;height: 100%;}
+.mortgage-two-row .center-chart{margin: 0 2%;}
+.mortgage-two-row .comment-show li{padding:8px 5px}
+.mortgage-two-row .comment-show li h4{margin-bottom: 20px;}
+.mortgage-two-row .comment-show h3{line-height: 60px}
+.mortgage-three-row{height: 420px;margin-bottom: 20px}
+.mortgage-three-row .left-chart,.mortgage-three-row .center-chart,.mortgage-three-row .right-chart{width: 32%;float: left;height: 100%}
+.mortgage-three-row .center-chart{margin: 0 2%;}
+.mortgage-four-row{height:380px;margin-bottom: 20px;}
+.mortgage-four-row .left-chart{width: 66%;float: left;height: 100%;}
+.mortgage-four-row .right-chart{width:32%;float: right;height: 100%;}
+
+
+.comStore-one-row,.comStore-two-row{height: 380px;margin-bottom: 20px}
+.comStore-three-row{height: 700px;margin-bottom: 20px;padding: 10px}
+.comStore-one-row .comStore-info,
+.comStore-two-row .comStore-info{height: 100%;padding: 10px;}
+.comStore-three-ro .comStore-info{height: 345px;padding: 10px;margin-bottom: 10px}
+.comStore-one-row .comStore-info .comStore-chart,
+.comStore-two-row .comStore-info .comStore-chart,
+.comStore-three-row .comStore-info .comStore-chart{width: 33.33%;height: 100%;float: left;padding: 10px;}
+.comStore-info h3{color: #fff;font-size: 16px;font-weight: bold;line-height: 40px;padding-left: 20px;width: 100%}
+
+
+
+.top30-one-row,.top30-four-row{height: 400px;margin-bottom: 20px;}
+.top30-two-row,.top-three-row{height: 700px;margin-bottom: 20px;}
+.top30-two-row .top30-info .top30-chart,
+.top-three-row .top30-info .top30-chart{width: 33.33%;height: 100%;float: left;padding: 10px;}
+
+
+.top30-one-row h3,.top30-four-row h3,.top30-info h3{color: #fff;font-size: 16px;font-weight: bold;line-height: 40px;padding-left: 20px;width: 100%}
+
+
+@media screen and (max-width: 999px){
+    #house-info .house-show li h4{font-size: 12px;line-height:30px;}
+    #house-info .house-show li h4 span{font-size: 12px;display: none}
+    #house-info .house-show li p{text-align: right;font-size: 20px;color:#07d3c1 }
+}
+@media screen and (min-width: 1000px)and (max-width: 1200px){
+    #house-info .house-show li h4{font-size: 13px;line-height:30px;}
+    #house-info .house-show li h4 span{font-size: 12px}
+    #house-info .house-show li p{text-align: right;font-size: 20px;color:#07d3c1 }
+}

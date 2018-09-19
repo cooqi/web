@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>工程建设</title>
+    <link href="../../plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/tab/css/tab.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/leftNav/css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../plugs/leftNav/font/iconfont.css">
+    <link href="../../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/otherColumn.css" rel="stylesheet" type="text/css" />
+    <style>
+        body,html{background: transparent}
+    </style>
+</head>
+
+<body>
+    <div class="otherColumn frame-content clear project-build" id="frameContent">
+        <div class="left-filter comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div class="filter-box">
+                <h3>统计月份：</h3>
+                <div class="year-month">
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>年</span>
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>月</span>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" value="option1" checked>
+                       全省
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option2">
+                       长沙
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                       株洲
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        湘潭
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        衡阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        邵阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        岳阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        常德
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" value="option3" >
+                        张家界
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        益阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        郴州
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        永州
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        娄底
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        怀化
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        湘西
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="right-data">
+            <div class="presale-one-row comment-box">
+                <div class="top-dot"></div>
+                <div class="bottom-dot"></div>
+                <div class="presale-info clear">
+                    <div class="presale-chart presale-fazheng">
+                        <div id="echart1"></div><!--替换echart-->
+                    </div><!--当月预售发证情况-->
+                    <div class="presale-chart presale-area">
+                        <div id="echart2"></div><!--替换echart-->
+                    </div><!--当月预售发证情况-->
+                    <div class="presale-chart presale-num">
+                        <div id="echart3"></div><!--替换echart-->
+                    </div><!--当月预售发证情况-->
+                </div>
+            </div>
+
+            <div class="presale-two-row clear">
+                <div class="left-chart-box">
+                    <div class="top-chart mid-bg">
+                        <!--bg star-->
+                        <div class="top-bg">
+                            <div class="chart-bg-box">
+                                <div class="ring"></div>
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                        <div class="bottom-bg">
+                            <div class="chart-bg-box">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                        <!--bg end-->
+                        <div id="echart7"></div><!--替换echart-->
+                    </div><!--当月预售房屋用途情况-->
+                    <div class="bottom-chart min-bg">
+                        <!--bg star-->
+                        <div class="top-bg">
+                            <div class="chart-bg-box">
+                                <div class="ring"></div>
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                        <div class="bottom-bg">
+                            <div class="chart-bg-box">
+                                <div class="triangle"></div>
+                            </div>
+                        </div>
+                        <!--bg end-->
+                        <div id="echart6"></div><!--替换echart-->
+                    </div><!--当月预售房屋套型情况-->
+                </div>
+
+
+                <div class="right-chart comment-box">
+                    <div class="top-dot"></div>
+                    <div class="bottom-dot"></div>
+                    <div class="presale-table">
+                        <h3>本年截止当月 累计预售情况：</h3>
+                        <table>
+                            <tr>
+                                <th width="100">市州名称</th>
+                                <th>本年截止当月累计预售面积（万平）</th>
+                                <th>同期比例（%）</th>
+                                <th>本年截止当月累计预售套数（套）</th>
+                                <th>同期比例（%）</th>
+                            </tr>
+                            <tr>
+                                <td>长沙</td>
+                                <td>90</td>
+                                <td>100</td>
+                                <td>20</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="presale-three-row clear">
+                <div class="left-chart mid-bg">
+                    <!--bg star-->
+                    <div class="top-bg">
+                        <div class="chart-bg-box">
+                            <div class="ring"></div>
+                            <div class="triangle"></div>
+                        </div>
+                    </div>
+                    <div class="bottom-bg">
+                        <div class="chart-bg-box">
+                            <div class="triangle"></div>
+                        </div>
+                    </div>
+                    <!--bg end-->
+                    <div id="echart26"></div><!--替换echart-->
+                </div><!--商品房供应期（现）面积情况-->
+
+
+                <div class="right-chart comment-box" >
+                    <div class="top-dot"></div>
+                    <div class="bottom-dot"></div>
+                    <div id="echart27"></div><!--替换echart-->
+                </div><!--map-->
+            </div>
+
+        </div>
+    </div>
+
+<script src="../../js/jquery-3.3.1.min.js"></script>
+<script src="../../plugs/leftNav/js/nav.js"></script>
+</body>
+</html>

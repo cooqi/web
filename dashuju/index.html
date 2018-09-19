@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=8" />
+	<title>无标题文档</title>
+	<link href="plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/css.css" rel="stylesheet" type="text/css" />
+
+
+
+</head>
+
+<body>
+
+
+<div class="chart-bg">
+	<div class="head-top"></div>
+	<div class="box-main-chart">
+		<div class="chart-one-row">
+			<div class="left-chart">
+				<div class="bg-top">
+					<div class="left-dot"></div>
+					<div class="triangle"></div>
+				</div>
+				<div class="bg-bottom">
+					<div class="triangle-bottom"></div>
+				</div>
+
+				<div class="content">
+					<h3 class="chart-title">实时数据</h3>
+					<div class="data-box company-prj">
+						<h4 class="list-title">项目企业</h4>
+						<ul class="data-list">
+							<li>
+								<h5>房地产项目 <span>(个)</span></h5>
+								<p>14,671</p>
+							</li>
+							<li>
+								<h5>企业开发 <span>(个)</span></h5>
+								<p>14,671</p>
+							</li>
+						</ul>
+					</div>
+					<div class="data-box company-prj">
+						<h4 class="list-title">今日商品房</h4>
+						<ul class="data-list">
+							<li>
+								<h5>库存套数 <span>(套)</span></h5>
+								<p>1,842,667</p>
+							</li>
+							<li>
+								<h5>库存面积 <span>(m)</span></h5>
+								<p>229,364,790</p>
+							</li>
+							<li>
+								<h5>成交套数 <span>(套)</span></h5>
+								<p>1,275</p>
+							</li>
+							<li>
+								<h5>成交面积 <span>(m)</span></h5>
+								<p>136,590</p>
+							</li>
+							<li>
+								<h5>成交均价 <span>(元)</span></h5>
+								<p>8,555</p>
+							</li>
+						</ul>
+					</div>
+					<div class="data-box company-prj">
+						<h4 class="list-title">今日存量房</h4>
+						<ul class="data-list">
+							<li>
+								<h5>成交套数 <span>(套)</span></h5>
+								<p>140</p>
+							</li>
+							<li>
+								<h5>成交面积 <span>(m)</span></h5>
+								<p>9,778</p>
+							</li>
+							<li>
+								<h5>成交均价 <span>(元)</span></h5>
+								<p>1471</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div><!--1-->
+
+			<div class="center-chart">
+				<div class="top-animate-line"></div>
+				<div class="top-animate">
+					<div class="spinner">
+						<div class="bounce1"></div>
+						<div class="bounce2"></div>
+						<div class="bounce3"></div>
+					</div>
+				</div>
+				<div class="bottom-animate">
+					<div class="spinner">
+						<div class="bounce1"></div>
+						<div class="bounce2"></div>
+						<div class="bounce3"></div>
+					</div>
+				</div>
+
+				<div class="map-chart-box" id="map"></div>
+			</div><!--2-->
+
+			<div class="right-chart">
+				<div class="chart-time">
+					<div class="chart-top comment-box">
+						<div class="animate01">
+							<div class="spinner">
+								<div class="double-bounce1"></div>
+								<div class="double-bounce2"></div>
+							</div>
+						</div>
+						<div id="price_trend_chart"></div>
+					</div>
+
+					<div class="chart-bottom comment-box">
+						<div class="animate02">
+							<div class="spinner">
+								<div class="rect1"></div>
+								<div class="rect2"></div>
+								<div class="rect3"></div>
+								<div class="rect4"></div>
+								<div class="rect5"></div>
+							</div>
+						</div>
+						<div id="house_time_chart"></div>
+					</div>
+				</div>
+			</div><!--3-->
+		</div>
+
+		<div class="chart-two-row clear">
+			<div class="left-chart comment-box">
+				<div class="top-dot"></div>
+				<div class="bottom-dot"></div>
+				<div id="prj_investment_chart"></div>
+			</div><!--1-->
+
+			<div class="center-chart comment-box">
+				<div class="top-dot"></div>
+				<div class="bottom-dot"></div>
+				<div id="transaction_chart"></div>
+			</div><!--2-->
+
+			<div class="right-chart comment-box">
+				<div class="top-dot"></div>
+				<div class="bottom-dot"></div>
+				<div id="proportion_offer_sell_chart"></div>
+			</div><!--3-->
+		</div>
+
+	</div>
+</div>
+
+
+<!--弹出框-->
+<div class="modal fadeInLeft" id="mymodal">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+				<h4 class="modal-title">模态弹出窗标题</h4>
+			</div>
+			<div class="modal-body">
+				<p>模态弹出窗主体内容</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+				<button type="button" class="btn btn-primary">保存</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<script src="https://cdn.bootcss.com/echarts/4.1.0.rc2/echarts.min.js"></script>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+<script src="plugs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="map/map.js"></script>
+
+<script>
+    /****************map*********************/
+    function init_one() {
+        // --- 地图 ---
+        var mychart = echarts.init(document.getElementById('map'));
+        $.getJSON('map/100000.json', function (geoJosn) {
+            echarts.registerMap('china', geoJosn);
+            option = {
+                title: {
+                    text: '湖南省当日商品房成交面积',
+                    textStyle: { color: '#fff' },
+                    left:'10',
+                    top:'10'
+                },
+                series: [
+                    {
+                        name: '湖南省当日商品房成交面积',
+                        type: 'map',
+                        mapType: 'china', // 自定义扩展图表类型
+                        center: [111.46923, 27.237842],
+                        zoom: 1,
+                        label: {
+                            normal: {
+                                show: true,
+                                textStyle: {
+                                    color: '#fff'
+                                }
+                            },
+                            emphasis: {
+                                textStyle: {
+                                    color: '#fff'
+                                }
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                borderColor: 'rgba(147, 235, 248, 1)',
+                                borderWidth: 1,
+                                areaColor: {
+                                    type: 'radial',
+                                    x: 0.5,
+                                    y: 0.5,
+                                    r: 0.8,
+                                    colorStops: [{
+                                        offset: 0,
+                                        color: 'rgba(147, 235, 248, 0)' // 0% 处的颜色
+                                    }, {
+                                        offset: 1,
+                                        color: 'rgba(147, 235, 248, .2)' // 100% 处的颜色
+                                    }],
+                                    globalCoord: false // 缺省为 false
+                                },
+                                shadowColor: 'rgba(128, 217, 248, 1)',
+                                // shadowColor: 'rgba(255, 255, 255, 1)',
+                                shadowOffsetX: -2,
+                                shadowOffsetY: 2,
+                                shadowBlur: 10
+                            },
+                            emphasis: {
+                                areaColor: '#389BB7',
+                                borderWidth: 0
+                            }
+                        },
+                        // data: data.data,
+                        // // 自定义名称映射
+                        // nameMap: data.nameMap
+                    }
+                ]
+            }
+            mychart.setOption(option);
+            var start = setInterval(function () {
+                if (option.series[0].zoom < 10) {
+                    option.series[0].zoom = option.series[0].zoom + 1;
+                    mychart.setOption(option);
+                } else {
+                    clearInterval(start);
+                    //只更新option应该可以做到平滑
+                    init_two();
+                }
+
+            }, 250);
+        })
+    }
+
+    init_one();
+
+    function init_two() {
+
+        $.getJSON('map/hunan/hunan.json', function (geoJson) {
+            echarts.registerMap('湖南', geoJson);
+            var myChart = echarts.extendsMap('map', {
+                mapName: '湖南',    // 地图名
+                goDown: true,       // 是否下钻
+                // 下钻回调
+                callback: function (name, option, instance) {
+                    console.log(name, option, instance);
+                },
+                // 数据展示
+                data: [{
+                    name: '长沙',
+                    value: 50,
+                    level: 1
+                }, {
+                    name: '常德',
+                    value: 12,
+                    level: 2
+                }, {
+                    name: '湘潭',
+                    value: 45,
+                    level: 3
+                }, {
+                    name: '岳阳',
+                    value: 98,
+                    level: 11
+                }, {
+                    name: '衡阳',
+                    value: 99,
+                    level: 1
+                }]
+            });
+            window.onresize = function() {
+                myChart.resize();
+                price_trend.resize();
+                house_time.resize();
+                prj_investment.resize();
+                transaction.resize();
+                proportion_offer_sell.resize();
+            }
+        })
+    }
+
+
+
+    /*************************map end**************************/
+
+
+    /**************one chart  房地产市场交易价格走势*********************/
+    var dataMap={};
+    function dataFormatter(obj) {
+        var pList = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+        var temp;
+        for (var year = 2013; year <= 2018; year++) {
+            var max = 0;
+            var sum = 0;
+            temp = obj[year];
+            for (var i = 0, l = temp.length; i < l; i++) {
+                max = Math.max(max, temp[i]);
+                sum += temp[i];
+                obj[year][i] = {
+                    name : pList[i],
+                    value : temp[i]
+                }
+            }
+            obj[year + 'max'] = Math.floor(max / 100) * 100;
+            obj[year + 'sum'] = sum;
+        }
+        return obj;
+    }
+    dataMap.dataGDP = dataFormatter({
+        //max : 60000,
+        2018:[5500, 6500, 8000, 8500, 8000, 7700, 9000, 0, 0, 0, 0, 0],
+        2017:[6500, 7500, 8500, 7500, 9000, 8700,8500, 7500, 9000, 8700, 9000, 8500],
+        2016:[5500, 6500, 8000, 8500, 8000, 7700,8000, 8500, 8000, 7700, 7000, 7000],
+        2015:[6500, 7500, 8500, 7500, 7000, 7700,8500, 7500, 7000, 8700, 7000, 6500],
+        2014:[5500, 6500, 7000, 7500, 7000, 7700,8000, 8500, 8000, 7700, 7000, 7000],
+        2013:[6500, 7500, 7500, 7500, 7000, 7700,7500, 7500, 7000, 8700, 7000, 7000]
+    });
+    dataMap.dataFinancial = dataFormatter({
+        //max : 3200,
+        2018:[6000, 5800, 7000, 6100, 6800, 6000, 6500, 0, 0, 0, 0, 0],
+        2017:[6500, 5800, 6000, 5000, 5100, 5100, 5900, 5900, 6100, 6800, 6700, 7200],
+        2016:[5500, 5800, 5900, 5800, 5800, 5700, 5500, 6000, 6200, 6800, 5700, 6200],
+        2015:[5100, 4900, 5400, 5400, 4900, 5300, 4500, 5900, 5200, 5800, 5700, 6200],
+        2014:[5500, 5800, 5000, 5100, 5800, 5000, 5500, 5000, 6200, 5800, 5700, 5200],
+        2013:[4900, 4100, 5100, 5700, 5800, 5100, 5500, 4000, 4200, 5200, 5100, 5200]
+    });
+    var price_trend = echarts.init(document.getElementById('price_trend_chart'));
+    var price_trend_option = {
+        baseOption: {
+            timeline: {
+                // y: 0,
+                axisType: 'category',
+                // realtime: false,
+                // loop: false,
+                autoPlay: true,
+                // currentIndex: 2,
+                playInterval: 1000,
+                lineStyle:{
+                    color: '#04e5ed',
+                },
+                controlStyle: {
+                    color:'#fff',
+                    borderColor:'#fff'
+                },
+                data: [
+                    '2013-01-01','2014-01-01','2015-01-01','2016-01-01','2017-01-01',
+                    {
+                        value: '2018-01-01',
+                        tooltip: {
+                            formatter: function (params) {
+                                return params.name + '房价达到新高';
+                            }
+                        },
+                        symbol: 'diamond',
+                        symbolSize: 18
+
+                    }
+
+                ],
+                label: {
+                    formatter : function(s) {
+                        return (new Date(s)).getFullYear();
+                    },
+                    textStyle: {
+                        color: '#fff'          // 图例文字颜色
+                    }
+                }
+            },
+
+            legend: {
+                x: 'right',
+                data: ['商品房', '存量房'],
+                selected: {
+                    '商品房': true, '存量房': true
+                },
+                textStyle: {
+                    color: '#fff'          // 图例文字颜色
+                }
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            calculable : true,
+            grid: {
+                top: 80,
+                bottom: 100,
+				left:'15%',
+                right:'10%',
+                tooltip: {
+                    trigger: 'axis',
+                    axisPointer: {
+                        type: 'shadow',
+                        label: {
+                            show: true,
+                            backgroundColor: '#fff',
+                            formatter: function (params) {
+                                return params.value.replace('\n', '');
+                            }
+                        }
+                    }
+                }
+            },
+            xAxis: [
+                {
+                    'type':'category',
+                    'axisLabel':{'interval':0},
+                    'data':['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+                    splitLine: {show: false},
+                    axisLine:{
+                        show:true,
+                        onZero:true,
+                        lineStyle:{
+                            color: '#fff',
+                            width: 2,
+                            type: 'solid'
+                        }
+                    }/*横轴边框色*/
+                }
+            ],
+            yAxis: [
+                {
+                    type: 'value',
+                    name: '均价（元）',
+                    axisLine:{
+                        show:true,
+                        onZero:true,
+                        lineStyle:{
+                            color: '#fff',
+                            width: 2,
+                            type: 'solid'
+                        }
+                    }/*y轴边框色*/
+                }
+            ],
+            series: [
+                {name: '商品房',
+                    type: 'line',
+
+                    itemStyle: {
+                        normal: {
+                            // 定制显示（按顺序）
+                            color:'#f47398',
+                            label : {show: false,position: 'top'}
+                        }
+                    }
+                },
+                {name: '存量房',
+                    type: 'line',
+                    itemStyle: {
+                        normal: {
+                            // 定制显示（按顺序）
+                            color:'#00ceb2',
+                            label : {show: false,position: 'top'}
+                        }
+                    }
+                }
+            ]
+        },
+        options: [
+            {
+                title : {text: '2013房地产市场交易价格走势',textStyle: { color: '#fff' },left:'10',
+                    top:'10'},
+                series : [
+                    {data: dataMap.dataGDP['2013']},
+                    {data: dataMap.dataFinancial['2013']}
+                ]
+            },
+            {
+                title : {text: '2014房地产市场交易价格走势'},
+                series : [
+                    {data: dataMap.dataGDP['2014']},
+                    {data: dataMap.dataFinancial['2014']}
+                ]
+            },
+            {
+                title : {text: '2015房地产市场交易价格走势'},
+                series : [
+                    {data: dataMap.dataGDP['2015']},
+                    {data: dataMap.dataFinancial['2015']}
+                ]
+            },
+            {
+                title : {text: '2016房地产市场交易价格走势'},
+                series : [
+                    {data: dataMap.dataGDP['2016']},
+                    {data: dataMap.dataFinancial['2016']}
+                ]
+            },
+            {
+                title : {text: '2017房地产市场交易价格走势'},
+                series : [
+                    {data: dataMap.dataGDP['2017']},
+                    {data: dataMap.dataFinancial['2017']}
+                ]
+            },
+            {
+                title : {text: '2018房地产市场交易价格走势'},
+                series : [
+                    {data: dataMap.dataGDP['2018']},
+                    {data: dataMap.dataFinancial['2018']}
+                ]
+            }
+        ]
+    };
+    /****************房地产市场交易价格走势 end *******************/
+
+
+    /**********************湖南省商品房去化周期***********************/
+    var house_time = echarts.init(document.getElementById('house_time_chart'));
+    var house_time_option = getSpfzzqhzqOption();
+    function getSpfzzqhzqOption()
+    {
+        spfzzqhzqOption = {
+            title: {
+                text: '商品房去化周期',
+                textStyle: { color: '#fff' },
+                left:'50',
+                top:'10'
+            },
+            tooltip: {
+                trigger: 'axis',
+                axisPointer : {
+                    type : 'shadow'
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '3%',
+                bottom: '3%',
+                containLabel: true
+            },
+            xAxis: {
+                type: 'category',
+                data: ['长沙','株洲','湘潭','衡阳','岳阳','邵阳','常德','张家界','益阳','郴州','永州','怀化','娄底','湘西'],
+                axisLabel: {
+                    interval:0,
+                    rotate:45,
+                    textStyle:{
+                        color:"#fff",
+                        fontSize:16,
+                        fontFamily:'Microsoft YaHei'
+                    }
+                },
+                axisLine:{
+                    show:true,//设置为发了先都不生效
+                    onZero:true,
+                    lineStyle:{
+                        color: '#04e5ed',
+                        width: 2,
+                        type: 'solid'
+                    }
+                },/*横轴边框色*/
+            },
+            yAxis: {
+
+                type: 'value',
+                max: 60,
+                min:0,
+                boundaryGap: [0.2, 0.2],
+                axisLine:{
+                    show:true,//设置为发了先都不生效
+                    onZero:true,
+                    lineStyle:{
+                        color: '#04e5ed',
+                        width: 2,
+                        type: 'solid'
+                    }
+                },/*y轴边框色*/
+                axisLabel: {
+                    textStyle: {
+                        color: '#fff'
+                    }
+                }
+            },
+            series: [
+                {
+                    name:'商品房去化周期',
+                    type:'bar',
+                    barWidth: '60%',
+                    data:[13, 25, 17, 18, 8, 29, 13, 15, 27, 38, 13, 37,40,25],
+                    itemStyle: {
+                        normal: {
+                            // 定制显示（按顺序）
+                            color: function(params) {
+                                var colorList = ['#C33531','#EFE42A','#64BD3D','#EE9201','#29AAE3', '#B74AE5','#0AAF9F','#E89589','#16A085','#4A235A','#C39BD3 ','#F9E79F','#29EFEF','#E4BD3E'];
+                                return colorList[params.dataIndex]
+                            },
+                            label : {show: true,position: 'top'}
+                        },
+                    },
+                }
+            ]
+        }
+        return spfzzqhzqOption;
+    }
+
+    // 点击事件
+    house_time.on('click', function (params) {
+        modalShow('#mymodal', 'fadeInLeft');
+        console.log(params)
+    });
+
+    //animate.css动画触动一次方法
+    $.fn.extend({
+        animateCss: function (animationName) {
+            var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            this.addClass('animated ' + animationName).one(animationEnd, function() {
+                $(this).removeClass('animated ' + animationName);
+            });
+        }
+    });
+
+
+    var modalShow = function(targetModel, animateName, callback){
+        $(targetModel).show().animateCss(animateName);
+        $('#mymodal').modal();
+        callback.call(this);
+    }
+    /**********************湖南省商品房去化周期 end***********************/
+
+
+    /****************************企业项目投资规模TOP10******************************/
+    var prj_investment = echarts.init(document.getElementById('prj_investment_chart'));
+    var prj_investment_option = {
+        color:'#fff',
+        title: {
+            text: '企业项目投资规模TOP10',
+            textStyle: { color: '#fff' },
+            left:'10',
+            top:'10'
+        },
+        tooltip: {
+            trigger: 'axis',
+            axisPointer: {
+                type: 'shadow'
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            containLabel: true
+        },
+        xAxis: {
+            type: 'value',
+
+            boundaryGap: [0, 0.01],
+            axisLine:{
+                show:false,//设置为发了先都不生效
+                onZero:true,
+                lineStyle:{
+                    color: '#04e5ed',
+                    width: 2,
+                    type: 'solid'
+                }
+            },/*横轴边框色*/
+        },
+        yAxis: {
+            type: 'category',
+            name: '(亿元)',
+            data: ['湖南珠江实业投资...', '株洲高科房地产开...', '沅江市祥云房地产...', '湖南鑫远投资集团...', '湖南秀龙地产置业...',
+                '湖南金霞粮食批发...', '湖南恒建房地产综...', '怀化市骏达房地产...', '长沙龙湖房地产开...', '湖南浏阳河城镇建...'],
+            axisLine:{
+                show:false,//设置为发了先都不生效
+                onZero:true,
+                lineStyle:{
+                    color: '#04e5ed',
+                    width: 2,
+                    type: 'solid'
+                }
+            },/*y轴边框色*/
+            axisLabel: {
+                interval: 0,
+                color:'#fff',
+                formatter: function(value) {
+                    if (value.length > 8) {
+                        return value.substring(0, 8) + "...";
+                    } else {
+                        return value;
+                    }
+                }
+            }
+        },
+        series: [
+            {
+                name: '2011年',
+                type: 'bar',
+                data: [10, 50, 122, 55, 180, 60,190,90,25,66],
+                itemStyle: {
+                    normal: {
+                        color:'#00ceb2'
+                        /*color: new echarts.graphic.LinearGradient(
+                            0, 0, 1,0,   //右/下/左/上
+                            [
+                                { offset: 0, color: '#06fcf9' },
+                             //   { offset: 0.5, color: '#188df0' },
+                                { offset: 1, color: '#2010fb' }
+                            ]
+                        )*/
+                    },
+                    emphasis: {
+                        color:'#e0e5ad'
+                        /*color:new echarts.graphic.LinearGradient(
+                           1, 0, 0,0,   //右/下/左/上
+                            [
+                                { offset: 0, color: '#06fcf9' },
+                                //   { offset: 0.5, color: '#188df0' },
+                                { offset: 1, color: '#2010fb' }
+                            ]
+                        )*/
+                    }
+                },
+            }
+        ]
+    };
+    /*******************************企业项目投资规模TOP10 end******************************/
+
+
+    /***************************商品房交易情况分析*************************/
+    var transaction = echarts.init(document.getElementById('transaction_chart'));
+    var xdataAxis = ['长沙', '株洲', '湘潭', '衡阳', '邵阳', '岳阳', '常德', '张家界', '益阳', '郴州', '永州', '怀化', '娄底', '湘西州'];
+    var mj_data = [25320.95, 4963.68, 9532.8, 23143.84, 6920.46, 8285.48, 0, 0, 19684.39, 0, 0, 0, 4658.1, 0];
+    var je_data = [18919.4, 2541.9, 4234.1, 11766.8, 2824.1, 3709.6, 0, 0, 12393.6, 0, 0, 0, 1868.8, 0];
+    var ts_data = [272, 42, 83, 183, 62, 66, 0, 0, 159, 0, 0, 0, 40, 0];
+    var transaction_option = {
+        color:['#00ceb2','#e0e5ad'],
+        title: {
+            text: '商品房交易情况分析',
+            textStyle: { color: '#fff' },
+            left:'10',
+            top:'10'
+        },
+        legend: {
+            data: ['金额', '面积', '套数'],
+            textStyle: {
+                color: '#fff'          // 图例文字颜色
+            }
+        },
+        grid: {
+            left: '3%',
+            right: '4%',
+            bottom: '3%',
+            top: '80px',
+            containLabel: true
+        },
+        yAxis: [{
+            name: '面积(㎡))/金额(万元)',
+            axisLine:{
+                show:true,//设置为发了先都不生效
+                onZero:true,
+                lineStyle:{
+                    color: '#fff',
+                    width: 2,
+                    type: 'solid'
+                }
+            },/*横轴边框色*/
+            axisTick: {
+                show: true
+            },
+            splitLine: {
+                show: false,
+
+            }
+        }, {
+            name: '套数',
+            axisLine:{
+                show:true,//设置为发了先都不生效
+                onZero:true,
+                lineStyle:{
+                    color: '#fff',
+                    width: 2,
+                    type: 'solid'
+                }
+            },/*横轴边框色*/
+            axisTick: {
+                show: true
+            },
+            splitLine: {
+                show: false,
+
+            }
+        }],
+        xAxis: {
+            data: xdataAxis,
+            axisLabel: {
+                interval: 0
+            },
+            axisLine:{
+                show:true,//设置为发了先都不生效
+                onZero:true,
+                lineStyle:{
+                    color: '#fff',
+                    width: 2,
+                    type: 'solid'
+                }
+            },/*横轴边框色*/
+            axisTick: {
+                show: true
+            },
+            splitLine: {
+                show: false
+            },
+        },
+        series: [
+            { // For shadow
+                type: 'bar',
+                name: '金额',
+                yAxisIndex: 0,
+                /*itemStyle: {
+                    normal: {
+                        color: '#8FC647',
+                        // borderColor: ''
+                    }
+                },*/
+                // barGap: '-100%',
+                // barCategoryGap: '40%',
+                data: mj_data,
+                animation: false
+            },
+            {
+                type: 'bar',
+                name: '面积',
+                yAxisIndex: 0,
+                /*itemStyle: {
+                    normal: {
+                        color: new echarts.graphic.LinearGradient(
+                            0, 0, 0, 1,
+                            [
+                                { offset: 0, color: '#F75017' },
+                                { offset: 0.5, color: '#DB7D33' },
+                                { offset: 1, color: '#DB7D33' }
+                            ]
+                        )
+                    },
+                    emphasis: {
+                        color: '#DB7D33'
+                    }
+                },*/
+                data: je_data
+            }, {
+
+                type: 'line',
+                name: '套数',
+                yAxisIndex: 1,
+                symbol: 'circle',
+                symbolSize: 6,
+                itemStyle: {
+                    color: '#f47398'
+                },
+                areaStyle: {
+                    normal: {
+                        color: {
+                            type: 'linear',
+                            x: 0,
+                            y: 0,
+                            x2: 0,
+                            y2: 1,
+                            colorStops: [{
+                                offset: 0, color: 'rgba(236,113,151,1)'
+                            }, {
+                                offset: 0.5, color: 'rgba(236,113,151,0.7)'
+                            }, {
+                                offset: 1, color: 'rgba(236,113,151,0)'
+                            }]
+                        }
+                    }
+                },
+                lineStyle: {
+                    width: 1
+                },
+                z: -1,
+                data: ts_data
+
+            }
+        ]
+    };
+
+    /***************************商品房交易情况分析 end*********************************/
+
+
+    /*******************************套型结构比例********************************/
+    var proportion_offer_sell = echarts.init(document.getElementById('proportion_offer_sell_chart'));
+    var proportion_offer_sell_option = {
+        color:['#ec7197', '#e0e5ad','#00ceb2'],
+        title: [{
+            text:'套型结构比例',
+            textStyle: { color: '#fff' },
+            left:'10',
+            top:'10'
+        }, {
+            text: '供(套)',
+            left:'18%',
+            bottom:'25',
+            textStyle: { color: '#fff' }
+        },
+            {
+                text:'销(套)',
+                left:'68%',
+                bottom:'25',
+                textStyle: { color: '#fff' }
+            }],
+        legend: {
+            x:'center',
+            y:'bottom',
+            data: ['<90', '>=144', '>=90<144'],
+            textStyle: {
+                color: '#fff'          // 图例文字颜色
+            }
+        },
+        series: [
+            {
+                name: '供(套)',
+                type: 'pie',
+                center: ['25%', '50%'],
+                radius: ['35%', '50%'],
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '16',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    { value: 335, name: '<90' },
+                    { value: 310, name: '>=144' },
+                    { value: 234, name: '>=90<144' },
+                ]
+            },{
+                name: '销(套)',
+                type: 'pie',
+                center: ['75%', '50%'],
+                radius: ['35%', '50%'],
+                label: {
+                    normal: {
+                        show: false,
+                        position: 'center'
+                    },
+                    emphasis: {
+                        show: true,
+                        textStyle: {
+                            fontSize: '16',
+                            fontWeight: 'bold'
+                        }
+                    }
+                },
+                labelLine: {
+                    normal: {
+                        show: false
+                    }
+                },
+                data: [
+                    { value: 335, name: '<90' },
+                    { value: 310, name: '>=144' },
+                    { value: 234, name: '>=90<144' },
+                ]
+            }
+        ]
+    }
+
+
+
+
+
+
+    price_trend.setOption(price_trend_option);
+    house_time.setOption(house_time_option);
+    prj_investment.setOption(prj_investment_option);
+    transaction.setOption(transaction_option);
+    proportion_offer_sell.setOption(proportion_offer_sell_option);
+
+    /**窗口变化时**/
+    window.onresize = function(){
+        price_trend.resize();
+        house_time.resize();
+        prj_investment.resize();
+        transaction.resize();
+        proportion_offer_sell.resize();
+
+    }
+
+
+    /*****定时执行*******/
+    $(function(){
+        $('.chart-one-row .data-list li').addClass('spinner-box')
+        var tt=document.querySelector('.chart-one-row .data-list li')
+        tt.addEventListener("webkitAnimationEnd",function(){
+            $('.chart-one-row .data-list li').removeClass('spinner-box')
+        },false)
+        setInterval(function(){
+            $('.chart-one-row .data-list li').addClass('spinner-box')
+        },7000);
+    })
+
+
+</script>
+
+</body>
+</html>

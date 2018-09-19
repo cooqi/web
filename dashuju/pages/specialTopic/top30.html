@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>全省各县_市_级别各项指标三十强排名</title>
+    <link href="../../plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/tab/css/tab.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/leftNav/css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../plugs/leftNav/font/iconfont.css">
+    <link href="../../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/otherColumn.css" rel="stylesheet" type="text/css" />
+    <style>
+        body,html{background: transparent}
+    </style>
+</head>
+
+<body>
+    <div class="otherColumn frame-content clear special-topic" id="frameContent">
+        <div class="left-filter comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div class="filter-box">
+                <h3>统计月份：</h3>
+                <div class="year-month">
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>年</span>
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>月</span>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" value="option1" checked>
+                       全省
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option2">
+                       长沙
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                       株洲
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        湘潭
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        衡阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        邵阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        岳阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        常德
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" value="option3" >
+                        张家界
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        益阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        郴州
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        永州
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        娄底
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        怀化
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        湘西
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="right-data">
+            <div class="top30-one-row min-bg">
+                <!--bg star-->
+                <div class="top-bg">
+                    <div class="chart-bg-box">
+                        <div class="ring"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="bottom-bg">
+                    <div class="chart-bg-box">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <!--bg end-->
+                <h3>预售审批面积排名</h3>
+                <div id="echart2"></div><!--替换echart-->
+            </div>
+
+            <div class="top30-two-row comment-box">
+                <div class="top-dot"></div>
+                <div class="bottom-dot"></div>
+                <div class="top30-info clear">
+                    <h3>交易方面排名TOP30</h3>
+                    <div class="top30-chart top30-fazheng">
+                        <div id="echart21"></div><!--替换echart-->
+                    </div><!--按商品房交易数量排名-->
+                    <div class="top30-chart top30-area">
+                        <div id="echart5"></div><!--替换echart-->
+                    </div><!--按商品房交易金额排名-->
+                    <div class="top30-chart top30-num">
+                        <div id="echart6"></div><!--替换echart-->
+                    </div><!--按商品房交易面积排名-->
+                </div>
+            </div>
+
+            <div class="top-three-row comment-box">
+                <div class="top-dot"></div>
+                <div class="bottom-dot"></div>
+                <div class="top30-info clear">
+                    <h3>交易方面排名TOP30</h3>
+                    <div class="top30-chart top30-fazheng">
+                        <div id="echart1"></div><!--替换echart-->
+                    </div><!--按存量房交易数量排名-->
+                    <div class="top30-chart top30-area">
+                        <div id="echart24"></div><!--替换echart-->
+                    </div><!--按存量房交易金额排名-->
+                    <div class="top30-chart top30-num">
+                        <div id="echart3"></div><!--替换echart-->
+                    </div><!--按存量房交易面积排名-->
+                </div>
+            </div>
+
+            <div class="top30-four-row min-bg">
+                <!--bg star-->
+                <div class="top-bg">
+                    <div class="chart-bg-box">
+                        <div class="ring"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="bottom-bg">
+                    <div class="chart-bg-box">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <!--bg end-->
+                <h3>抵押贷款规模排名TOP30</h3>
+                <div id="echart23"></div><!--替换echart-->
+            </div>
+
+
+        </div>
+    </div>
+
+<script src="../../js/jquery-3.3.1.min.js"></script>
+<script src="../../plugs/leftNav/js/nav.js"></script>
+</body>
+</html>

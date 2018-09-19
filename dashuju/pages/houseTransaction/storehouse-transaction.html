@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>存量房交易情况</title>
+    <link href="../../plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/tab/css/tab.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/otherColumn.css" rel="stylesheet" type="text/css" />
+    <style>
+        body,html{background: transparent}
+    </style>
+</head>
+
+<body>
+<div class="otherColumn frame-content" id="frameContent">
+    <div class="store-one-row clear">
+            <div class="left-chart-box clear comment-box">
+                <div class="top-dot"></div>
+                <div class="bottom-dot"></div>
+
+                <div class="left-chart-one">
+                    <div id="echart01"></div><!--替换echart-->
+                </div><!--当月存量房交易成交情况（成交笔数）-->
+                <div class="left-chart-two">
+                    <div id="echart011"></div><!--替换echart-->
+                </div><!--当月存量房交易面积情况-->
+            </div>
+
+            <div class="right-chart min-bg">
+                <!--bg star-->
+                <div class="top-bg">
+                    <div class="chart-bg-box">
+                        <div class="ring"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="bottom-bg">
+                    <div class="chart-bg-box">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <!--bg end-->
+                <div class="select">
+                    <span>统计月份：</span>
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>年</span>
+                    <select name="" >
+                        <option value="">01</option>
+                    </select>
+                    <span>月</span>
+                </div>
+
+                <div id="echart03"></div><!--替换echart-->
+            </div><!--map-->
+
+        </div>
+
+    <div class="store-two-row clear">
+        <div class="left-chart min-bg">
+                <!--bg star-->
+                <div class="top-bg">
+                    <div class="chart-bg-box">
+                        <div class="ring"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="bottom-bg">
+                    <div class="chart-bg-box">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <!--bg end-->
+                <div id="echart09"></div><!--替换echart-->
+        </div><!--当月存量房交易成交数额情况-->
+
+        <div class="right-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+
+            <div id="house-info">
+                <div class="comment-show house-show qifang">
+                    <h3>当月商品房预售</h3>
+                    <ul class="clear">
+                        <li>
+                            <h4>销售套数 <span>（套）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>其中住宅套数<span>（套）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>销售面积<span>（m<sup>2</sup>）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>其中住宅面积<span>（m<sup>2</sup>）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>销售面积<span>（m<sup>2</sup>）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>其中住宅面积<span>（m<sup>2</sup>）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--当月存量房交易-->
+
+    </div>
+
+    <div class="store-three-row clear">
+        <div class="left-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart288"></div><!--替换echart-->
+        </div><!--当月存量房交易均价情况-->
+
+        <div class="right-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart27"></div><!--替换echart-->
+        </div><!--存量房住宅交易成交走势分析-->
+    </div>
+
+    <div class="store-four-row clear">
+        <div class="left-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart21"></div><!--替换echart-->
+        </div><!--存量房交易房屋用途分布情况-->
+
+        <div class="center-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart22"></div><!--替换echart-->
+        </div><!--存量房交易房屋性质分布情况-->
+
+        <div class="right-chart mid-bg">
+            <!--bg star-->
+            <div class="top-bg">
+                <div class="chart-bg-box">
+                    <div class="ring"></div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <div class="bottom-bg">
+                <div class="chart-bg-box">
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <!--bg end-->
+            <div id="echart23"></div><!--替换echart-->
+        </div><!--交易房户型分布情况-->
+    </div>
+
+    <div class="store-five-row clear">
+        <div class="left-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart28"></div><!--替换echart-->
+        </div><!--存量房住宅外省与本省购房占比-->
+
+        <div class="center-chart min-bg">
+            <!--bg star-->
+            <div class="top-bg">
+                <div class="chart-bg-box">
+                    <div class="ring"></div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <div class="bottom-bg">
+                <div class="chart-bg-box">
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <!--bg end-->
+            <div id="echart282"></div><!--替换echart-->
+        </div><!--存量房住宅外省购买套数增速和占比-->
+
+        <div class="right-chart min-bg">
+            <!--bg star-->
+            <div class="top-bg">
+                <div class="chart-bg-box">
+                    <div class="ring"></div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <div class="bottom-bg">
+                <div class="chart-bg-box">
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <!--bg end-->
+            <div id="echart273"></div><!--替换echart-->
+        </div><!--存量房住宅购买者年龄套数分布-->
+    </div>
+
+    <div class="store-six-row clear">
+        <div class="left-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart13"></div><!--替换echart-->
+        </div><!--存量房住宅单位与个人购房占比-->
+
+        <div class="right-chart-box comment-box clear">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+
+            <div class="left-chart-one">
+                <div id="echart31"></div><!--替换echart-->
+            </div><!--存量房住宅单位购房情况-->
+            <div class="left-chart-two">
+                <div id="echart11"></div><!--替换echart-->
+            </div><!--存量房住宅个人购房情况-->
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

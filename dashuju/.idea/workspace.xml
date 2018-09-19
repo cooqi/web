@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c37bde7-6e00-48fb-82eb-d4a101d86e4b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="otherColumn.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/otherColumn.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="559">
+              <caret line="260" column="48" lean-forward="false" selection-start-line="260" selection-start-column="48" selection-end-line="260" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="special-topic-box.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/specialTopic/special-topic-box.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugs/leftNav/js/nav.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top30.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/specialTopic/top30.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comhouse-storehouse.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/specialTopic/comhouse-storehouse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prj-presale.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/prjBuild/prj-presale.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prj-plan.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/prjBuild/prj-plan.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1129">
+              <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="82" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prj-build.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/prjBuild/prj-build.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build-info.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/prjBuild/build-info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1748">
+              <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>triggerBtn</find>
+      <find>dataFormatter</find>
+      <find>fadeInLeft</find>
+      <find>modalShow</find>
+      <find>opt</find>
+      <find>initSeriesData</find>
+      <find>geoCoordMap</find>
+      <find>extendsMap</find>
+      <find>cityMap</find>
+      <find>成交面积</find>
+      <find>.json</find>
+      <find>background: rgba(3,208,245,.1);</find>
+      <find>min-</find>
+      <find>.chart-one-row .data-list li</find>
+      <find>levelColorMap</find>
+      <find>myChart</find>
+      <find>数据来自</find>
+      <find>(月)</find>
+      <find>margile</find>
+      <find>none</find>
+      <find>hide</find>
+      <find>wtla</find>
+      <find>animate02</find>
+      <find>wt</find>
+      <find>wrap</find>
+      <find>charts</find>
+      <find>allCharts</find>
+      <find>top-bg</find>
+      <find>head-top</find>
+      <find>left-filter</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/modal.js" />
+        <option value="$PROJECT_DIR$/8.html" />
+        <option value="$PROJECT_DIR$/js/js.js" />
+        <option value="$USER_HOME$/Downloads/html5-webgl-particle-animation/index2.html" />
+        <option value="$PROJECT_DIR$/plugs/bg-animate/css/style.css" />
+        <option value="$PROJECT_DIR$/plugs/map/map.js" />
+        <option value="$PROJECT_DIR$/map/map.js" />
+        <option value="$USER_HOME$/Documents/Tencent Files/407997152/FileRecv/echartTest.html" />
+        <option value="$USER_HOME$/Desktop/demo.html" />
+        <option value="$PROJECT_DIR$/../../jQuery动态自定义添加删除选项卡代码/js/tab.js" />
+        <option value="$PROJECT_DIR$/plugs/tab/css/index.css" />
+        <option value="$PROJECT_DIR$/plugs/tab/css/tab.css" />
+        <option value="$PROJECT_DIR$/plugs/tab/js/tab.js" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/../../左边导航/伸缩导航/index.html" />
+        <option value="$PROJECT_DIR$/land-use.html" />
+        <option value="$PROJECT_DIR$/prj-build.html" />
+        <option value="$PROJECT_DIR$/plugs/leftNav/css/nav.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/pages/landUse/land-use.html" />
+        <option value="$PROJECT_DIR$/pages/prjBuild/build-info.html" />
+        <option value="$PROJECT_DIR$/pages/prjBuild/prj-plan.html" />
+        <option value="$PROJECT_DIR$/pages/prjBuild/prj-build-box.html" />
+        <option value="$PROJECT_DIR$/pages/houseTransaction/house-transaction.html" />
+        <option value="$PROJECT_DIR$/pages/houseTransaction/com-house-supply.html" />
+        <option value="$PROJECT_DIR$/pages/houseTransaction/com-house-transaction.html" />
+        <option value="$PROJECT_DIR$/pages/houseTransaction/com-house-loan.html" />
+        <option value="$PROJECT_DIR$/pages/houseTransaction/storehouse-transaction.html" />
+        <option value="$PROJECT_DIR$/pages/houseTransaction/house-transaction-box.html" />
+        <option value="$PROJECT_DIR$/pages/houseTransaction/storehouse-mortgage.html" />
+        <option value="$PROJECT_DIR$/css/otherColumn.css" />
+        <option value="$PROJECT_DIR$/pages/specialTopic/top30.html" />
+        <option value="$PROJECT_DIR$/pages/specialTopic/comhouse-storehouse.html" />
+        <option value="$PROJECT_DIR$/pages/prjBuild/prj-presale.html" />
+        <option value="$PROJECT_DIR$/pages/prjBuild/prj-build.html" />
+        <option value="$PROJECT_DIR$/plugs/leftNav/js/nav.js" />
+        <option value="$PROJECT_DIR$/pages/specialTopic/special-topic-box.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="634" />
+    <option name="y" value="107" />
+    <option name="width" value="936" />
+    <option name="height" value="891" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="houseTransaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="landUse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="prjBuild" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="specialTopic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="plugs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="plugs" type="462c0819:PsiDirectoryNode" />
+              <item name="leftNav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="plugs" type="462c0819:PsiDirectoryNode" />
+              <item name="leftNav" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dashuju" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dashuju" type="462c0819:PsiDirectoryNode" />
+              <item name="plugs" type="462c0819:PsiDirectoryNode" />
+              <item name="leftNav" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="nodejs_interpreter_path" value="F:/Program Files/nodejs/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\web\大数据\dashuju\pages\prjBuild" />
+      <recent name="E:\web\大数据\dashuju\pages\landUse" />
+      <recent name="E:\web\大数据\dashuju\plugs\tab\img" />
+      <recent name="E:\web\大数据\dashuju\plugs" />
+      <recent name="E:\web\web\plugs\bootstrap-3.3.7-dist\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\web\大数据\dashuju\pages\specialTopic" />
+      <recent name="E:\web\大数据\dashuju\pages\houseTransaction" />
+      <recent name="E:\web\大数据\dashuju\images\bg" />
+      <recent name="E:\web\大数据\dashuju\pages\prjBuild" />
+      <recent name="E:\web\大数据\dashuju\plugs\leftNav" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c37bde7-6e00-48fb-82eb-d4a101d86e4b" name="Default" comment="" />
+      <created>1535093736050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535093736050</updated>
+      <workItem from="1535093737384" duration="7776000" />
+      <workItem from="1535190656229" duration="6050000" />
+      <workItem from="1535277183340" duration="13840000" />
+      <workItem from="1535329768862" duration="25387000" />
+      <workItem from="1535416231655" duration="18234000" />
+      <workItem from="1536225369572" duration="1354000" />
+      <workItem from="1536280918865" duration="12364000" />
+      <workItem from="1536644556709" duration="10903000" />
+      <workItem from="1536712254172" duration="14243000" />
+      <workItem from="1536736524188" duration="4640000" />
+      <workItem from="1536805860962" duration="20345000" />
+      <workItem from="1536885703271" duration="23269000" />
+      <workItem from="1537144342676" duration="3242000" />
+      <workItem from="1537253928182" duration="8843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="170490000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="634" y="107" width="936" height="891" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3507795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/transition.min.js" />
+    <entry file="file://$USER_HOME$/Downloads/component-master/alert/testAlert.html" />
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/407997152/FileRecv/demo.html" />
+    <entry file="file://$USER_HOME$/Downloads/jq22BootstrapModal413020161123/BootstrapModal/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/animate.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="10" column="20286" lean-forward="false" selection-start-line="10" selection-start-column="19877" selection-end-line="10" selection-end-column="20286" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/json/hunan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugs/map/china-main-city/aomen.json" />
+    <entry file="file://$PROJECT_DIR$/plugs/map/china-main-city/china-main-city-map.js" />
+    <entry file="file://$PROJECT_DIR$/plugs/map/china-main-city-map.js" />
+    <entry file="file://$PROJECT_DIR$/8.html" />
+    <entry file="file://$USER_HOME$/Downloads/html5-webgl-particle-animation/index2.html" />
+    <entry file="file://$PROJECT_DIR$/plugs/bg-animate/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/plugs/bg-animate/js/index.js" />
+    <entry file="file://$PROJECT_DIR$/plugs/map2/hunan/hunan.json" />
+    <entry file="file://$PROJECT_DIR$/plugs/map/map.js" />
+    <entry file="file://$PROJECT_DIR$/map/hunan/hunan.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css-back.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/407997152/FileRecv/echartTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="233" column="0" lean-forward="true" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="98" lean-forward="false" selection-start-line="12" selection-start-column="98" selection-end-line="12" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9082">
+          <caret line="478" column="0" lean-forward="false" selection-start-line="478" selection-start-column="0" selection-end-line="478" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/demo.html" />
+    <entry file="file://$PROJECT_DIR$/../../jQuery动态自定义添加删除选项卡代码/js/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="31" selection-end-column="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugs/tab/css/tab.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugs/tab/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugs/tab/js/tab.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="81" column="3" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugs/leftNav/font/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="52" lean-forward="true" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../左边导航/伸缩导航/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugs/leftNav/css/nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="46" column="156" lean-forward="false" selection-start-line="46" selection-start-column="156" selection-end-line="46" selection-end-column="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/bg/ring.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/landUse/land-use.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/prjBuild/prj-build-box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-560">
+          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/houseTransaction/com-house-supply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="182" column="8" lean-forward="false" selection-start-line="182" selection-start-column="8" selection-end-line="200" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/houseTransaction/com-house-transaction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/houseTransaction/storehouse-transaction.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/houseTransaction/house-transaction-box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="41" column="39" lean-forward="false" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/houseTransaction/storehouse-mortgage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="152" column="22" lean-forward="true" selection-start-line="152" selection-start-column="22" selection-end-line="152" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/houseTransaction/com-house-loan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/otherColumn.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="260" column="48" lean-forward="false" selection-start-line="260" selection-start-column="48" selection-end-line="260" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/specialTopic/top30.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/specialTopic/comhouse-storehouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="119" column="33" lean-forward="false" selection-start-line="119" selection-start-column="33" selection-end-line="119" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/prjBuild/prj-presale.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/prjBuild/prj-plan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1129">
+          <caret line="70" column="16" lean-forward="false" selection-start-line="70" selection-start-column="16" selection-end-line="82" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/prjBuild/prj-build.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="47" column="33" lean-forward="false" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/prjBuild/build-info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1748">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugs/leftNav/js/nav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/specialTopic/special-topic-box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="34" column="77" lean-forward="false" selection-start-line="34" selection-start-column="77" selection-end-line="34" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

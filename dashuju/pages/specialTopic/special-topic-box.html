@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>专题</title>
+    <link href="../../plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/tab/css/tab.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/leftNav/css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../plugs/leftNav/font/iconfont.css">
+    <link href="../../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/otherColumn.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div class="chart-bg otherColumn">
+    <div class="head-top clear">
+        <img src="../../images/logo_1.png" alt="" class="logo">
+    </div>
+    <div class="box-main-chart  bg2 prjBuild">
+        <div class="nav nav-mini able leftnav">
+            <h4 class="fixed"></h4>
+            <ul>
+                <li class="nav-item">
+                    <a href="comhouse-storehouse.html"  target="priBuild" ><i class="my-icon nav-icon icon_1"></i><span>商品房与存量房分析</span><i class="my-icon nav-more"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="top30.html"  target="priBuild" ><i class="my-icon nav-icon icon_2"></i><span>三十强排名</span><i class="my-icon nav-more"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:;"  target="priBuild" ><i class="my-icon nav-icon icon_3"></i><span>全省县市级交易指标排名</span><i class="my-icon nav-more"></i></a>
+                    <ul>
+                        <li><a href="javascript:;"><span class="subindex">3.1</span>预售审批面积排名TOP30</a></li>
+                        <li><a href="javascript:;"><span class="subindex">3.2</span>交易市场分项排名TOP30</a></li>
+                        <li><a href="javascript:;"><span class="subindex">3.3</span>抵押贷款规模排名TOP30</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!--左边导航-->
+
+
+        <div class="frame">
+            <iframe src="comhouse-storehouse.html" frameborder="0" width="100%" style="background: transparent" name="priBuild" id="priBuildIframe"></iframe>
+        </div>
+    </div>
+
+</div>
+
+<script src="../../js/jquery-3.3.1.min.js"></script>
+<script src="../../plugs/leftNav/js/nav.js"></script>
+
+<script>
+    //tab导航切换
+   /*$('.top-nav li').click(function(){
+       $(this).addClass('on').siblings().removeClass('on')
+   })*/
+
+    //iframe高度
+    function setIframeHeight(iframe) {
+        if (iframe) {
+            var iframeWin = iframe.contentWindow || iframe.contentDocument.parentWindow;
+            if (iframeWin.document.body) {
+               iframe.height = iframeWin.document.getElementById('frameContent').scrollHeight  || iframeWin.document.body.scrollHeight;
+            }
+        }
+    };
+   var iframe= document.getElementById('priBuildIframe');
+   iframe.onload = function () {
+       setIframeHeight(iframe);
+   };
+</script>
+</body>
+</html>

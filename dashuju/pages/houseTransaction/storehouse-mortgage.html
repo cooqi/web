@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>存量房抵押情况</title>
+    <link href="../../plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/tab/css/tab.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/otherColumn.css" rel="stylesheet" type="text/css" />
+    <style>
+        body,html{background: transparent}
+    </style>
+</head>
+
+<body>
+<div class="otherColumn frame-content" id="frameContent">
+    <div class="mortgage-one-row clear">
+            <div class="left-chart-box clear comment-box">
+                <div class="top-dot"></div>
+                <div class="bottom-dot"></div>
+
+                <div class="left-chart-one">
+                    <div id="echart01"></div><!--替换echart-->
+                </div><!--当月存量房贷款与现金交易分析-->
+                <div class="left-chart-two">
+                    <div id="echart011"></div><!--替换echart-->
+                </div><!--当月存量房贷款与现金支付分析-->
+            </div>
+
+            <div class="right-chart min-bg">
+                <!--bg star-->
+                <div class="top-bg">
+                    <div class="chart-bg-box">
+                        <div class="ring"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="bottom-bg">
+                    <div class="chart-bg-box">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <!--bg end-->
+                <div class="select">
+                    <span>统计月份：</span>
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>年</span>
+                    <select name="" >
+                        <option value="">01</option>
+                    </select>
+                    <span>月</span>
+                </div>
+
+                <div id="echart03"></div><!--替换echart-->
+            </div><!--map-->
+
+        </div>
+
+    <div class="mortgage-two-row clear">
+        <div class="left-chart min-bg">
+                <!--bg star-->
+                <div class="top-bg">
+                    <div class="chart-bg-box">
+                        <div class="ring"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="bottom-bg">
+                    <div class="chart-bg-box">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <!--bg end-->
+                <div id="echart09"></div><!--替换echart-->
+        </div><!--涉及抵押房屋用途分布情况-->
+
+        <div class="center-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart29"></div><!--替换echart-->
+        </div><!--涉及抵押房屋户型分布情况（按户数）-->
+
+        <div class="right-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+
+            <div id="house-info">
+                <div class="comment-show house-show qifang">
+                    <h3>当月商品房预售</h3>
+                    <ul class="clear">
+                        <li>
+                            <h4>涉及住宅房屋套数 <span>（套）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>涉及住宅合同总额<span>（套）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>涉及住宅债权数额<span>（万元）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                        <li>
+                            <h4>涉及债权数额占比<span>（%）</span></h4>
+                            <p>2365896</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div><!--当月存量房房屋抵押-->
+
+    </div>
+
+    <div class="mortgage-three-row clear">
+        <div class="left-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart21"></div><!--替换echart-->
+        </div><!--存量房交易贷款期限分布情况（按合同数）-->
+
+        <div class="center-chart big-bg">
+            <!--bg star-->
+            <div class="top-bg">
+                <div class="chart-bg-box">
+                    <div class="ring"></div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <div class="bottom-bg">
+                <div class="chart-bg-box">
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <!--bg end-->
+            <div id="echart22"></div><!--替换echart-->
+        </div><!--存量房交易贷款方式分布情况（按合同数）-->
+
+        <div class="right-chart mid-bg">
+            <!--bg star-->
+            <div class="top-bg">
+                <div class="chart-bg-box">
+                    <div class="ring"></div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <div class="bottom-bg">
+                <div class="chart-bg-box">
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <!--bg end-->
+            <div id="echart23"></div><!--替换echart-->
+        </div><!--存量房贷款现状分析-->
+    </div>
+
+    <div class="mortgage-four-row clear">
+        <div class="left-chart mid-bg">
+            <!--bg star-->
+            <div class="top-bg">
+                <div class="chart-bg-box">
+                    <div class="ring"></div>
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <div class="bottom-bg">
+                <div class="chart-bg-box">
+                    <div class="triangle"></div>
+                </div>
+            </div>
+            <!--bg end-->
+            <div id="echart288"></div><!--替换echart-->
+        </div><!--存量房交易贷款走势分析-->
+
+        <div class="right-chart comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div id="echart27"></div><!--替换echart-->
+        </div><!--抵押权人债权数额排名TOP10-->
+    </div>
+
+</div>
+
+</body>
+</html>

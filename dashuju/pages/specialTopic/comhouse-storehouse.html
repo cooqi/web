@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>商品房与存量房分析</title>
+    <link href="../../plugs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/tab/css/tab.css" rel="stylesheet" type="text/css" />
+    <link href="../../plugs/leftNav/css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../plugs/leftNav/font/iconfont.css">
+    <link href="../../css/css.css" rel="stylesheet" type="text/css" />
+    <link href="../../css/otherColumn.css" rel="stylesheet" type="text/css" />
+    <style>
+        body,html{background: transparent}
+    </style>
+</head>
+
+<body>
+    <div class="otherColumn frame-content clear special-topic" id="frameContent">
+        <div class="left-filter comment-box">
+            <div class="top-dot"></div>
+            <div class="bottom-dot"></div>
+            <div class="filter-box">
+                <h3>统计月份：</h3>
+                <div class="year-month">
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>年</span>
+                    <select name="" >
+                        <option value="">2018</option>
+                    </select>
+                    <span>月</span>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" value="option1" checked>
+                       全省
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option2">
+                       长沙
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                       株洲
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        湘潭
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        衡阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        邵阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        岳阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        常德
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios" value="option3" >
+                        张家界
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        益阳
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"  value="option3" >
+                        郴州
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        永州
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        娄底
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        怀化
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="optionsRadios"   value="option3" >
+                        湘西
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="right-data">
+            <div class="comStore-one-row comment-box">
+                <div class="top-dot"></div>
+                <div class="bottom-dot"></div>
+                <div class="comStore-info clear">
+                    <h3>商品房与存量房交易情况趋势分析</h3>
+                    <div class="comStore-chart comStore-fazheng">
+                        <div id="echart12"></div><!--替换echart-->
+                    </div><!--住宅成交单价信息对比-->
+                    <div class="comStore-chart comStore-area">
+                        <div id="echart22"></div><!--替换echart-->
+                    </div><!--住宅成交套数信息对比-->
+                    <div class="comStore-chart comStore-num">
+                        <div id="echart23"></div><!--替换echart-->
+                    </div><!--住宅成交面积信息对比-->
+                </div>
+            </div>
+
+            <div class="comStore-two-row min-bg">
+                <!--bg star-->
+                <div class="top-bg">
+                    <div class="chart-bg-box">
+                        <div class="ring"></div>
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <div class="bottom-bg">
+                    <div class="chart-bg-box">
+                        <div class="triangle"></div>
+                    </div>
+                </div>
+                <!--bg end-->
+                <div class="comStore-info clear">
+                    <h3>商品房与存量房购房人群对比分析</h3>
+                    <div class="comStore-chart comStore-fazheng" >
+                        <div id="echart16"></div><!--替换echart-->
+                    </div><!--个人与单位购房套数占比-->
+                    <div class="comStore-chart comStore-area" >
+                        <div id="echart26"></div><!--替换echart-->
+                    </div><!--购房人年龄段套数占比-->
+                    <div class="comStore-chart comStore-num">
+                        <div id="echart36"></div><!--替换echart-->
+                    </div><!--购房需求分类套数占比-->
+                </div>
+            </div>
+
+            <div class="comStore-three-row comment-box">
+                <div class="top-dot"></div>
+                <div class="bottom-dot"></div>
+                <div class="comStore-info clear">
+                    <h3>商品房与存量房交易热点对比分析</h3>
+                    <div class="comStore-chart comStore-fazheng" >
+                        <div id="echart1"></div><!--替换echart-->
+                    </div><!--住宅成交热点面积排名-->
+                    <div class="comStore-chart comStore-area" >
+                        <div id="echart2"></div><!--替换echart-->
+                    </div><!--住宅成交热点户型排名-->
+                    <div class="comStore-chart comStore-num">
+                        <div id="echart3"></div><!--替换echart-->
+                    </div><!--交易热点城市排名-->
+                    <div class="comStore-chart comStore-fazheng" >
+                        <div id="echart4"></div><!--替换echart-->
+                    </div><!--住宅成交热点面积分析-->
+                    <div class="comStore-chart comStore-area" >
+                        <div id="echart5"></div><!--替换echart-->
+                    </div><!--住宅成交热点户型分析-->
+                    <div class="comStore-chart comStore-num">
+                        <div id="echart6"></div><!--替换echart-->
+                    </div><!--交易热点市州分析-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<script src="../../js/jquery-3.3.1.min.js"></script>
+<script src="../../plugs/leftNav/js/nav.js"></script>
+</body>
+</html>
